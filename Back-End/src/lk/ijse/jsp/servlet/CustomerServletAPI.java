@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.sql.*;
 
 @WebServlet(urlPatterns = {"/cusotmer"})
-public class CustomerServletAPI extends HttpServlet {
+public class oCustomerServletAPI extends HttpServlet {
     public CustomerServletAPI(){
         System.out.println("Customer Sever Invoked");
     }
